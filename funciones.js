@@ -90,6 +90,7 @@ export function imgPrestamos() {
     img.src = imagenes.prestamos;
     img.alt = 'Imagen de préstamos';
     img.classList = "img-fluid"; 
+    return img;
 }
 
 export function listaSocios() {
