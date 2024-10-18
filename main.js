@@ -14,6 +14,7 @@ import { imgPrestamos, imgSocios, listaPrestamos, listaSocios } from "./funcione
 function verPrestamos() {
    
     const contenedorTexto = document.getElementById("texto");
+    contenedorTexto.innerHTML = ""; 
     contenedorTexto.appendChild(listaPrestamos()); 
 
     
